@@ -1,57 +1,68 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Thomas Morton's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
-  <body>
-
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Thomas Morton</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Contact</a></li>
+  <html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <title>Thomas Morton's Profile</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- name sets document metadata name; content gives the metadata a value; value "width-device width" renders the webpage to match the visible screen size;  -->
+      
+      <link rel="stylesheet" href="styles.css">
+      <!-- <link> tag specifies relationship between current document and an external resource; href attribute specifies the URL of the link -->
+      
+      <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+      </head>
+      
+    <body>
+      <div class="main-nav">
+        <!--class attribute allows styling of multiple classes that use the same nam-->
+        
+          <ul class="nav">
+            <li class="name">Thomas Morton</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </div>
+  
+      <header>
+        <!-- <header> tag is a container for introductory content or navigational links-->
+        
+        <img src="" alt="Drawing of Thomas Morton" class="profile-image">
+        <h1 class="tag name">Hello, I’m Thomas.</h1>
+        <p class="tag location">My home is Independence, KY.</p>
+      </header>
+  
+      <main class="flex">
+        <!-- <main> tag specifies content that is unique to the document. It should not contain information repeated across documents: i.e. sidebars, nav links, etc. -->
+        
+        <div class="card">
+          <h2>Background</h2>
+          <p>I’ve recently started a project management consulting company. I need to be able to develop webpages, online ordering, and shopping for my business. I've completed projects for Fortune 50 clients: such as GM, Fiat-Chrysler, and BMW. Learning front-end web development will also add an additional element to my company's services. I'm very excited to craft a webpage for my business that speaks to the personality of my branding.</p>
+         </div> 
+  
+        <div class="card">
+          <h2>Goals</h2>
+          <p>I want to craft a website that reflects professionalism and flexibility to provide the services my clients need. I hope to develop proficiency in front-end web development and maintain a relevant skillset for years to come.</p>
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Rails</li>
+          </ul>
+          <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+        </div> 
+  
+      </main>
+      <footer>
+        <ul>
+          <li><a href="#" class="social twitter">Twitter</a></li>
+          <li><a href="#" class="social linkedin">LinkedIn</a></li>
+          <li><a href="#" class="social github">Github</a></li>
         </ul>
-    </div>
-
-    <header>
-      <img src="images/me2.jpg" alt="Drawing of Thomas Morton" class="profile-image">
-      <h1 class="tag name">Hello, I’m Thomas.</h1>
-      <p class="tag location">My home is Independence, KY.</p>
-    </header>
-
-    <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the coding. I've lived in Pennsylvania and Kentucky and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a project manager and chef and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
-
-      <div class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
-        </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
-
-    </main>
-    <footer>
-      <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2020, Thomas Morton</p>
-    </footer>
+        <p class="copyright">Copyright 2020, Thomas Morton</p>
+      </footer>
   </body>
   </html>
